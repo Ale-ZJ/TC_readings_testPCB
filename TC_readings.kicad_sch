@@ -1412,7 +1412,6 @@
     )
   )
 
-
   (junction (at 274.955 26.67) (diameter 0) (color 0 0 0 0)
     (uuid 081541c2-ec04-4978-8052-2f20f89f1d82)
   )
@@ -2284,6 +2283,15 @@
   (text "spi receive only\nmaster pin in stm32\n" (at 116.205 29.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f9a56dfb-fc48-4d9e-b51f-b2c52df38c40)
+  )
+
+  (label "D+" (at 202.565 80.01 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 59dc3f1d-b584-49b4-a882-33a55f00a1e5)
+  )
+  (label "D-" (at 202.565 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cb8e8e38-f44e-4f04-a97d-1d507f8d5185)
   )
 
   (global_label "SCK_1" (shape input) (at 114.935 33.655 0) (fields_autoplaced)
